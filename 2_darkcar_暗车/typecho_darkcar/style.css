@@ -1,0 +1,473 @@
+body {
+	margin: 0px;
+	font-family: "微软雅黑", "黑体", sans-serif;
+	text-align: center;
+	font-size: 12px;
+	line-height: 150%;
+	color: #777;
+	background-color: #111;
+}
+
+.site-nav {
+	height: 0px;
+	background-color: #080808;
+}
+
+.site-nav div {
+	font-size: 14px;
+	line-height: 18px;
+	padding: 10px;
+	color: #888;
+}
+
+.site-nav a {
+	color: #888;
+	text-decoration: none;
+}
+
+.site-nav a:hover {
+	color: #ddd;
+}
+
+.site-nav .current {
+	color: #eee;
+}
+
+.site-logo {
+	float: left;
+	width: 20px;
+	margin-right: 6px;
+}
+
+.site-name a {
+	font-size: 14px;
+	line-height: 18px;
+	text-decoration: none;
+	float: left;
+	color: #eee;
+	font-weight: bold;
+}
+
+.site-action {
+	float: right;
+}
+
+.site-action input {
+	width: 120px;
+	font-size: 12px;
+	line-height: 14px;
+	color: #eee;
+	padding: 2px 22px 2px 5px;
+	background: url("search.png") no-repeat scroll 102px 3px transparent;
+	border: 1px solid #888;
+	box-sizing: border-box;
+}
+
+.bar {
+	padding: 10px 18px;
+	border-radius: 0px 0px 3px 3px;
+	box-shadow: 2px 2px 1px #000;
+	background-color: #30596c;
+}
+
+.wrap {
+	width: 700px;
+	margin: auto;
+}
+
+.wrap2 {
+	margin: 0px 30px;
+}
+
+.content {
+	font-family: "宋体", serif;
+	background-color: #222;
+	border-radius: 0px 0px 3px 3px;
+	box-shadow: 2px 2px 1px #000;
+}
+
+.each-post {
+	border-bottom: #555 1px dashed;
+	text-align: left;
+	padding: 11px 1px;
+}
+
+.each-post a {
+	font-size: 14px;
+	color: #bbb;
+	text-decoration: none;
+}
+
+.each-post a:hover {
+	text-decoration: underline;
+}
+
+.post {
+	padding: 30px 14%;
+	color: #bbb;
+}
+
+.title {
+	padding: 24px 0px;
+}
+
+.title a,
+.title h1 {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 120%;
+	margin: 0px;
+	text-align: center;
+	color: #bbb;
+}
+
+.back {
+	float: left;
+	padding-top: 12px;
+	padding-left: 12px;
+	font-size: 12px;
+}
+
+.pages,
+.time {
+	float: right;
+	padding-top: 12px;
+	padding-right: 12px;
+	font-size: 12px;
+}
+
+.back a,
+.pages a,
+.time a {
+	color: #777;
+	text-decoration: none;
+}
+
+.text {
+	text-align: left;
+	font-size: 12px;
+	line-height: 170%;
+}
+
+.text h2 {
+	font-size: 18px;
+	margin: 18px 0px;
+}
+
+.text h3 {
+	font-size: 14px;
+	margin: 14px 0px;
+}
+
+.text h4 {
+	font-size: 12px;
+	margin: 12px 0px;
+}
+
+.text a {
+	color: #bb3939;
+}
+
+.text p {
+	margin: 12px 0px;
+}
+
+.text img {
+	max-width: 100%;
+	max-height: 400px;
+	box-sizing: border-box;
+	margin: 6px 0px;
+	border-radius: 3px;
+	border: 4px solid #eee;
+	box-shadow: 3px 3px 1px #000;
+}
+
+.text blockquote {
+	color: #888;
+	border-left: 4px solid #777;
+	padding-left: 6px;
+	margin: 0px 24px;
+}
+
+.text code {
+	font-family: monospace, serif;
+	background-color: #111;
+	color: #888;
+	font-size: 12px;
+	padding: 3px 6px;
+	margin: 0px 3px;
+	border-radius: 2px;
+	box-shadow: 0 0 2px 2px #000 inset;
+}
+
+.text pre {
+	overflow-x: auto;
+	margin: 12px 0px;
+	padding: 12px 12px;
+	background-color: #111;
+	/*-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);*/
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px #000 inset;
+}
+
+.text pre code {
+	padding: 0px;
+	margin: 0px;
+	color: #888;
+	box-shadow: initial;
+}
+
+.text table {
+	margin: 16px 0px;
+}
+
+.text table th,
+.text table td {
+	padding: 3px 4px;
+}
+
+.text table th {
+	font-weight: bold;
+}
+
+.text table tr {
+	border: 2px solid #999;
+}
+
+.comment {
+	margin: 48px 0px;
+	padding: 0px 14%;
+	font-family: "宋体", serif;
+	text-align: left;
+}
+
+.comment .comment-label {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 12px;
+	color: #444;
+}
+
+.comment-list {
+	list-style: none;
+	padding: 0px;
+	margin: 10px 0px;
+}
+
+.comment-list li {
+	border-bottom: #333 1px solid;
+	padding: 5px 0px;
+}
+
+.comment-children ol {
+	list-style-type: disc;
+	padding-left: 18px;
+	margin-bottom: 0px;
+}
+
+.comment-children li {
+	border-top: #333 1px solid;
+	border-bottom: 0px;
+}
+
+.comment p {
+	display: inline-block;
+	margin: 0px;
+}
+
+.comment a {
+	text-decoration: none;
+	color: #bb3939;
+}
+
+.comment-author {
+	float: left;
+}
+
+.comment-reply {
+	font-size: 12px;
+	float: right;
+}
+
+.comment form {
+	margin: 10px 0px;
+}
+
+.comment .inputbox {
+	background-color: #111;
+	border: 1px solid #222;
+	color: #444;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.comment input {
+	width: 32.8%;
+	font-size: 12px;
+	margin: 6px 0px;
+	margin-right: 0.8%;
+}
+
+.comment .last-input{
+	margin-right: 0px;
+}
+
+.comment textarea {
+	width: 100%;
+	height: 64px;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 12px;
+	line-height: 17px;
+	font-family: "宋体", serif;
+}
+
+.comment form span {
+	font-size: 12px;
+	margin-top: 18px;
+	padding: 6px 0px;
+	color: #444;
+}
+
+.comment button {
+	margin: 6px 0px;
+	padding: 2px 12px;
+	background: no-repeat;
+	border: 1px solid #444;
+	color: #444;
+	border-radius: 1px;
+}
+
+.page-navigator {
+	display: block;
+	text-align: center;
+	margin: 24px 0px;
+	padding: 0px;
+}
+
+.page-navigator li {
+	display: inline-block;
+}
+
+.page-navigator a {
+	padding: 0px 4px;
+	color: #777;
+	text-decoration: none;
+}
+
+.page-navigator a:hover,
+.page-navigator .current a {
+	color: #bbb;
+}
+
+.nextlog {
+	margin: 18px 0;
+	padding: 0px 14%;
+}
+
+.nextlog a {
+	color: #777;
+	text-decoration: none;
+}
+
+.nextlog .pre {
+	float: left;
+}
+
+.nextlog .next {
+	float: right;
+}
+
+.meta {
+	margin: 48px 0px;
+	padding: 0px 14%;
+}
+
+.meta a {
+	color: #777;
+	text-decoration: none;
+}
+
+.meta p {
+	margin: 1px 0px;
+}
+
+.meta img {
+	width: 8px;
+}
+
+.archives a {
+	text-decoration: none;
+}
+
+.archives a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 990px){
+
+.wrap {
+	width: 630px;
+}
+
+.title a,
+.title h1 {
+	font-size: 18px;
+}
+
+}
+
+@media screen and (max-width: 720px){
+
+.wrap {
+	width: 90%;
+}
+
+.post, .comment, .page-navigator, .meta ,.nextlog {
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+}
+
+@media screen and (max-width: 590px){
+
+.site-nav {
+	height: auto;
+	border-bottom: 4px #000 solid;
+}
+
+.wrap2 {
+	margin: 0px 18px;
+}
+
+}
+
+@media screen and (max-width: 400px){
+
+.bar {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.wrap2 {
+	margin: 0px 8px;
+}
+
+}
+
+@media screen and (max-width: 290px){
+
+.site-action input {
+	margin-top: 10px;
+	margin-right: 12%;
+	float: left;
+}
+
+.page-navigator {
+	width: auto;
+	
+}
+
+}

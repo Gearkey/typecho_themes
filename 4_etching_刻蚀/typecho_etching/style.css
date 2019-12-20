@@ -1,0 +1,314 @@
+/** 整体样式配置 **/
+
+/* 字体颜色：主要 */
+.main *, .top * {
+	color: #DDD;
+}
+
+/* 字体颜色：次要 */
+.title-desc *, .footer *, .post-meta *, .comment-meta *, hr {
+	color: #777;
+}
+
+/* 字体颜色：主题色 */
+.post-content a {
+	color: #008C23;
+}
+
+/* 字体大小：最大 */
+h1 {
+	font-size: 42px;
+}
+
+/* 字体大小：大号 */
+h2 {
+	font-size: 30px;
+}
+
+/* 字体大小：普通 */
+.post, h3 {
+	font-size: 24px;
+}
+
+/* 字体大小：最小 */
+body, .post-meta, blockquote, pre, table, textarea, input, button {
+	font-size: 14px;
+}
+
+/* 统一字体样式 */
+body, textarea, input, button {
+	line-height: 1.8;
+	font-family: serif;
+}
+
+/* 块间距：板块 */
+.page-navigator {
+	margin: 84px 0;
+}
+
+/* 块间距：板块区间 */
+.top, h1, .post, .post-near, .comments {
+	margin: 52px 0;
+}
+
+/* 块间距：普通元素 */
+.widget, .post-title, .post-meta, .post-content, .comment-body, blockquote, pre, table, textarea, .inputs, .comment-child {
+	margin: 24px auto;
+}
+
+/* 块间距：小元素 */
+.cancel-comment-reply {
+	margin: 6px 0;
+}
+
+/** 常见元素风格化 **/
+
+p {
+	margin: 1.2em 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	max-height: 320px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+textarea, input, button {
+	background: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+tr:hover {
+	background-color: #080808;
+	background-image: url(img/bg.png);
+}
+
+code, td, th {
+	padding: 6px 12px;
+}
+
+code {
+	margin: 0 6px;
+}
+
+/* 框体样式 */
+blockquote, pre, code, td, th, .comment-child, textarea, input, button {
+	border: 1px solid #777;
+}
+
+blockquote:hover, pre:hover, code:hover, .comment-child:hover, textarea:hover, input:hover, button:hover {
+	border: 1px solid #999;
+}
+
+blockquote, pre, .comment-child, textarea {
+	font-family: monospace, serif;
+	overflow-x: auto;
+	padding: 24px 5%;
+	width: 75%;
+}
+
+.inputs, table {
+	width: 85%;
+}
+
+pre code, pre code:hover {
+	border: 0;
+}
+
+/** 主要布局配置 **/
+
+/* 板块 */
+
+body {
+	text-align: center;
+	background-color: #111;
+	background-image: url(img/bg.png);
+}
+
+.wrap {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+.main {
+	width: 56%;
+	margin-left: 7%;
+	text-align: left;
+	float: left;
+}
+
+.footer {
+	width: 28%;
+	text-align: left;
+	float: right;
+}
+
+/* 翻页元素 */
+
+.page-navigator {
+	text-align: center;
+	padding: 0;
+}
+
+.page-navigator li {
+	display: inline;
+	margin: 0 24px;
+}
+
+.page-navigator li a {
+	padding: 6px;
+}
+
+.page-navigator .prev, .page-navigator .next {
+	display: none;
+}
+
+.page-navigator .current {
+	text-decoration: underline;
+}
+
+/* 评论元素 */
+
+.comment-author img {
+	float: left;
+	padding: 4px 12px 0 0;
+}
+
+.comment-author, .comment-meta {
+	line-height: 1.4;
+}
+
+.comment-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.cancel-comment-reply {
+	float: right;
+}
+
+textarea {
+	resize: vertical;
+	height: 90px;
+	display: block;
+}
+
+.inputs input, .inputs button {
+	float: left;
+	padding: 10px 12px;
+	box-sizing: border-box;
+	width: 23.5%;
+}
+
+.inputs input {
+	margin-right: 2%;
+}
+
+/* footer 元素 */
+
+.logo {
+	display: block;
+	padding-top: 6px;
+}
+
+.footer img {
+	width: 160px;
+	box-shadow: 4px 4px 3px #080808;
+	margin-top: 54px;
+}
+
+.footer ul {
+	margin: 0;
+	padding-left: 18px;
+}
+
+.cate li {
+	float: left;
+	margin-right: 20px;
+}
+
+.footer input {
+	border: 0px;
+	color: #ccc !important;
+	width: 90px;
+}
+
+/** 自适应配置 **/
+
+/* 自适应：平板 */
+@media screen and (max-width: 1150px) {
+
+.wrap {
+	width: 90%;
+}
+
+img {
+	max-height: 180px;
+}
+
+/* 字体大小：最大 */
+h1 {
+	font-size: 28px;
+}
+
+/* 字体大小：大号 */
+h2 {
+	font-size: 22px;
+}
+
+/* 字体大小：普通 */
+.post, h3 {
+	font-size: 18px;
+}
+
+/* 字体大小：最小 */
+body, .post-meta, blockquote, pre, table, textarea, input, button {
+	font-size: 12px;
+}
+
+}
+
+/* 自适应：手机 */
+@media screen and (max-width: 590px) {
+
+.main {
+	width:100%;
+	margin-left: 0;
+	float: none;
+}
+
+.footer {
+	float: none;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.logo {
+	padding: 0;
+	display: inline;
+}
+
+.footer img {
+	width: 60px;
+	margin: 0;
+}
+
+.page-navigator li {
+	margin: 0 12px;
+}
+
+}
