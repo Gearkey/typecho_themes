@@ -37,7 +37,7 @@
 		<ul>
 		<?php $this->widget('Widget_Comments_Recent')->to($comments); ?>
 		<?php while($comments->next()): ?>
-			<li><a href="<?php $comments->permalink(); ?>"><?php $comments->author(false); ?>: <?php $comments->excerpt(18, '…'); ?></a></li>
+			<li><a href="<?php $comments->permalink(); ?>"><?php $comments->author(false); ?>: <?php $comments->excerpt(15, '…'); ?></a></li>
 		<?php endwhile; ?>
 		</ul>
 	</div>
@@ -54,7 +54,7 @@
 	<div class="widget">
 		<h3 class="widget-title"><?php _e('归档'); ?></h3>
 		<ul class="widget-list">
-			<?php $this->widget('Widget_Contents_Post_Date', 'type=month&format=F Y')
+			<?php $this->widget('Widget_Contents_Post_Date', 'type=year&format=Y年')
 			->parse('<li><a href="{permalink}">{date}</a></li>'); ?>
 		</ul>
 	</div>
