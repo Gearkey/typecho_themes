@@ -32,8 +32,8 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 			?>
 			<h2 class="post-title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a> <?php if ($this->status == 'private'): ?><em class="status">（私密）</em><?php endif; ?></h2>
 			<?php if (!empty($this->options->sidebarBlock) && in_array('ShowSummary', $this->options->sidebarBlock)){
-				echo preg_replace(array("/^[\r\n]/", "/[\r\n]+\s*/"), array("", "<br/>"), Typecho_Common::subStr(strip_tags($this->content), 0, 160, '...'));
-				echo '<br/><a class="more" href="'.$this->permalink. '">more &gt;&gt;</a>';
+				echo preg_replace(array("/^[\r\n]/"), array(""), Typecho_Common::subStr(strip_tags($this->content), 0, 176, '...'));
+				echo ' <a class="more" href="'.$this->permalink. '">&lt;阅读全文&gt;</a>';
 			}
 			else {
 				$this->content();
