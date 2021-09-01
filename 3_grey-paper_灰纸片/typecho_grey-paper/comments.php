@@ -70,7 +70,7 @@ echo $commentClass;
 			<p><input class="inputbox" type="text" name="author" maxlength="49" placeholder="昵称 (必填)" value="<?php $this->remember('author'); ?>"/><input class="inputbox" type="email" name="mail" maxlength="128"  placeholder="@qq.com" value="<?php $this->remember('mail'); ?>"<?php if ($this->options->commentsRequireMail): ?> required<?php endif; ?>/><input class="inputbox last-input" type="url" name="url" maxlength="128" placeholder="http://" value="<?php $this->remember('url'); ?>"<?php if ($this->options->commentsRequireURL): ?> required<?php endif; ?>/></p>
 			<?php endif; ?>
 			<p>
-				<textarea class="inputbox" name="text" placeholder="你的评论可以一针见血" required ><?php $this->remember('text'); ?></textarea>
+				<textarea class="inputbox" name="text" placeholder="随便说点什么" required ><?php $this->remember('text'); ?></textarea>
 			</p>
 			<p>
 				<button type="submit" class="submit"><?php _e('提交评论'); ?></button>
